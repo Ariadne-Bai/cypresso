@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ariadnebai/Desktop/cypresso/sim.cpp
+iostream
+-
+vector
+-
+unistd.h
+-
+cstdlib
+-
+
